@@ -2,10 +2,6 @@
 
 // module Test.Spec.Mocha
 
-if (typeof describe !== 'function' || typeof it !== 'function') {
-    throw new Error('Mocha globals seem to be unavailable!');
-}
-
 export const itAsync = function (only) {
     "use strict";
     return function (name) {
